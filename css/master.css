@@ -354,7 +354,7 @@ section{
 }
 @media (max-width: 767px) {
   .skills .row {
-    padding: 0px 0.76rem;
+    padding: 0px 0.75rem;
   }
 } 
 .skills .skill-card {
