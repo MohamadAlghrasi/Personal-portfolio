@@ -346,7 +346,7 @@ section{
 
 /* Start Skills*/
 .skills {
-  background: var(--bg-gradient), url(../assets/images/sunriseearth.jpg);
+  background: var(--bg-gradient), url(../assets/images/experience.jpg);
 }
 .skills .row > * {
   padding-left: 0px;
