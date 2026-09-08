@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamad Portfolio</title>
+    <!--Bootstrap css file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--Font Awesome css file-->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!--master css file-->
+    <link rel="stylesheet" href="css/master.css" />
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Start nav-landing : to give single background for nav and landing sections -->
+    <section class="nav-landing">
+      <!-- Start nav-->
+        <div class="container">
+
+      <nav class="navbar navbar-expand-lg fixed-top d-flex">
+        <div class="container">
+          <a class="navbar-brand" href="#">Alghrasi</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main"
+            aria-controls="main"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="main">
+            <div
+              class="w-100 d-flex justify-content-start justify-content-lg-center"
+            >
+              <!-- this div to center ul items using flex -->
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <!--ul has ms-auto but i remove it -->
+                <li class="nav-item">
+                  <span class="d-lg-inline d-none">01</span>
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <span class="d-lg-inline d-none">02</span>
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <span class="d-lg-inline d-none">03</span>
+                  <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <span class="d-lg-inline d-none">04</span>
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <span class="d-lg-inline d-none">05</span>
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- End nav-->
+      <!-- Start Landing-->
+      <div
+        class="landing d-flex justify-content-center align-items-center flex-column"
+      >
+        <div class="moon-bg"></div>
+        <div class="name-box text-center">
+          <h1>I'm MOHAMAD</h1>
+          <h5>Mohamad Alghrasi, Full Stack Web Developer</h5>
+        </div>
+        <div class="particles-container">
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+          <div class="particle"></div>
+        </div>
+      </div>
+      </div>
+      <!-- End Landing-->
+    </section>
+    <!--End nav-landing  -->
+    <!-- Start Skills-->
+    <section class="skills text-center sections-padding sections-bg" id="skills">
+      <div class="container">
+        <h2 class="main-h2">My Skills</h2>
+        <div class="row justify-content-center gap-2">
+          <div class="col-md-5 col-lg-3">
+            <div class="skill-card">
+              <div
+                class="skill-header d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="fa-solid fa-code icon-front fa-2xl me-3"></i>
+                <h3>Front End</h3>
+              </div>
+              <div
+                class="badges-container d-flex flex-wrap justify-content-center gap-2"
+              >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-html5 text-html"></i> HTML5</span
+                >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-css3-alt text-css"></i> CSS3</span
+                >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-js text-js"></i> JavaScript</span
+                >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-bootstrap text-bootstrap"></i>
+                  Bootstrap</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-3">
+            <div class="skill-card">
+              <div
+                class="skill-header d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="fa-solid fa-server icon-backend fa-2xl me-3"></i>
+                <h3>Back End</h3>
+              </div>
+              <div
+                class="badges-container d-flex flex-wrap justify-content-center gap-2"
+              >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-php text-php"></i> PHP</span
+                >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-laravel text-laravel"></i>
+                  Laravel</span
+                >
+                <span class="tech-badge"
+                  ><i class="fa-solid fa-database text-sql"></i> SQL</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-lg-3">
+            <div class="skill-card">
+              <div
+                class="skill-header d-flex justify-content-center align-items-center mb-4"
+              >
+                <i class="fa-solid fa-wrench icon-tools fa-2xl me-3"></i>
+                <h3>Tools</h3>
+              </div>
+              <div
+                class="badges-container d-flex flex-wrap justify-content-center gap-2"
+              >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-git-alt text-git"></i> Git</span
+                >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-github text-github"></i> GitHub</span
+                >
+                <span class="tech-badge"
+                  ><i class="fa-brands fa-figma text-figma"></i> Figma</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills-->
+    <!-- Start Projects-->
+    <section class="projects text-center sections-padding sections-bg" id="projects">
+      <div class="container">
+        <h2 class="main-h2">Projects</h2>
+     <p class="projects-coming-soon">COMING SOON</p>
+    </div>
+    </section>
+    <!-- End Projects -->
+    <!-- Start Experience-->
+    <section class="experience text-center sections-padding sections-bg" id="experience">
+      <div class="container">
+        <div class="exp-cards">
+        <h2 class="main-h2">Experience</h2>
+        <div class="exp-card">
+          <div class="exp-date"><span>Jun 2026 — PRESENT</span> 
+              <img src="assets/images/Amman.png" alt="Klaviyo Logo" class="exp-company-logo">
+          </div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <h3 class="exp-title">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                  Web Developer | Greater Amman Municipality
+                   <!-- <svg class="exp-arrow-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0L15 6.06v5.69a.75.75 0 001.5 0v-8A.75.75 0 0015.75 3h-8a.75.75 0 000 1.5h5.69l-8.72 8.72a.75.75 0 000 1.06z" clip-rule="evenodd" />
+                  </svg> -->
+                </a>
+              </h3>
+            </div>
+            <p class="exp-desc">
+Working on modernizing and standardizing user interfaces across 100+ municipal e-services, implementing a cohesive design system and ensuring full responsiveness to enhance public accessibility.            </p>
+
+            <ul class="exp-tags">
+              <li class="exp-tag">HTML</li>
+              <li class="exp-tag">CSS</li>
+              <li class="exp-tag">ASP.NET Web Forms</li>
+              <li class="exp-tag">SQL</li>
+              <li class="exp-tag">Responsive Design</li>
+            </ul>
+          </div>
+        </div>
+        <div class="exp-card">
+          <div class="exp-date"><span>Oct 2025 — Feb 2026</span> 
+              <img src="assets/Images/Orange.png" alt="Klaviyo Logo" class="exp-company-logo">
+          </div>
+          <div class="exp-content">
+            <div class="exp-header">
+              <h3 class="exp-title">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                Full Stack Web Developer Trainee | Orange Coding School
+                 <!-- <svg class="exp-arrow-icon" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 001.06 0L15 6.06v5.69a.75.75 0 001.5 0v-8A.75.75 0 0015.75 3h-8a.75.75 0 000 1.5h5.69l-8.72 8.72a.75.75 0 000 1.06z" clip-rule="evenodd" />
+                  </svg> -->
+                </a>
+              </h3>
+            </div>
+            <p class="exp-desc">
+            Completed an intensive full-stack development training program combining technical and soft skills. Collaborated within cross-functional teams to build real-world web applications, simulating corporate workflows and meeting strict project deadlines.            </p>
+
+            <ul class="exp-tags">
+              <li class="exp-tag">HTML</li>
+              <li class="exp-tag">CSS</li>
+              <li class="exp-tag">JavaScript</li>
+              <li class="exp-tag">PHP</li>
+              <li class="exp-tag">Laravel</li>
+              <li class="exp-tag">SQL</li>
+            </ul>
+          </div>
+        </div>
+        </div>
+        <div class="education">
+          <h3 class="main-h3">Education</h3>
+        <div class="edu-card">
+          <div class="edu-logo"> 
+              <img src="assets/Images/University_Logo.svg" alt="Logo" class="edu-logo">
+          </div>
+          <div class="edu-content">
+            <h3 class="edu-title">
+                Computer Science
+            </h3>
+            <p class="edu-desc">
+              Bachelor of Computer Science From University of Jordan
+            </p>
+            <span>2020 — 2025</span>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Experience -->
+    <!-- Start Contact-->
+    <section class="contact" id="contact">
+      <div class="container">
+      <div class="contact-shell">
+        <div class="contact-dashboard">
+          <header class="contact-heading">
+            <h2 class="main-h2">CONTACT</h2>
+          </header>
+
+          <div class="contact-grid">
+            <a class="contact-card email-card" href="mailto:mohamadalghrasi@gmail.com">
+              <div class="contact-card-content">
+                <h3>Gmail</h3>
+              </div>
+              <i class="fa-brands fa-google card-bg-icon"></i>
+            </a>
+            <a class="contact-card linkedin-card" href="https://www.linkedin.com/in/mohamadalghrasi/" target="_blank" rel="noreferrer">
+                      <div class="contact-card-content">
+
+              <h3>LinkedIn</h3>
+            </div>
+              <i class="fa-brands fa-linkedin card-bg-icon"></i>
+            </a>
+            <a class="contact-card github-card" href="https://github.com/MohamadAlghrasi" target="_blank" rel="noreferrer">
+                  <div class="contact-card-content">
+                <h3>GitHub</h3>
+                </div>
+                <i class="fa-brands fa-github card-bg-icon"></i>
+            </a>
+            <a class="contact-card whatsapp-card" href="https://wa.me/962787262816" target="_blank" rel="noreferrer">
+                <div class="contact-card-content">
+            <h3>Whatsapp</h3>
+            </div>
+                  <i class="fa-brands fa-whatsapp card-bg-icon"></i>
+              </a>
+            <a class="contact-card resume-card" href="assets/CV/Mohamad Alghrasi Resume.pdf" download>
+            <div class="contact-card-content">
+                <h3>Download my resume.</h3>
+              </div>
+                        <i class="fa-solid fa-file-pdf card-bg-icon"></i>
+
+            </a>
+            </div>
+          </div>
+        <img src="assets/Images/personal.jpeg" alt="Portrait of Your Name" />
+      </div>
+    </div>
+    </section>
+    <!-- End Contact -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/all.min.js"></script>
+</body>
+</html>
+
+</div>
