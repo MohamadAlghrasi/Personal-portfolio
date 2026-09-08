@@ -194,9 +194,10 @@ section{
   transform: translate(-50%, -50%);
   width: 400px;
   height: 400px;
-  background-image: url("../assets/images/Moon.jpg");
+  background-image: url("../assets/images/moon.JPG");
   background-size: cover;
   background-position: center;
+
   border-radius: 50%;
   mix-blend-mode: screen;
   opacity: 0.35;
@@ -345,7 +346,7 @@ section{
 
 /* Start Skills*/
 .skills {
-  background: var(--bg-gradient), url(../assets/images/SunRiseEarth_2.jpg);
+  background: var(--bg-gradient), url(../assets/images/sunRiseEarth.jpg);
 }
 .skills .row > * {
   padding-left: 0px;
@@ -487,7 +488,7 @@ section{
 
 /* Start Experience*/
 .experience {
-  background: var(--bg-gradient), url(../assets/images/Experience.jpg);
+  background: var(--bg-gradient), url(../assets/images/experience.jpg);
 }
 .experience  .exp-cards {
   width: 100%;

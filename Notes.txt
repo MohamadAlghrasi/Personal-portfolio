@@ -1,9 +1,0 @@
-- in bootstrap, page devided for 12 column 
-- what purpose of all.min.js from font awesome? browser render <i> tags(icons) as <svg> tag
-- 1 rem = 16 px -> standard size in browsers 
-- to find any class in bootstrap documentation -> inspect -> beside class name -> the referance in doc
-- to apply css property with media query -> p-lg-3 -> mean padding = 1rem when screen is [992px OR ABOVE] SAME [ >=992px]
-- double click on an element in inspect -> force state -> can see focus, hover and other effects properties
-- how to pick a color in photoshop -> in first or second video i dont remember
----------------------------------------
-- select word -> ctrl + h -> replace
