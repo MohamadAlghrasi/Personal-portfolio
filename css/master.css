@@ -346,7 +346,7 @@ section{
 
 /* Start Skills*/
 .skills {
-  background: var(--bg-gradient), url(../assets/images/experience.jpg);
+  background: var(--bg-gradient), url(../assets/images/sun_Rise_Earth.jpg);
 }
 .skills .row > * {
   padding-left: 0px;
@@ -488,7 +488,7 @@ section{
 
 /* Start Experience*/
 .experience {
-  background: var(--bg-gradient), url(../assets/images/sunriseearth.jpg);
+  background: var(--bg-gradient), url(../assets/images/experience.jpg);
 }
 .experience  .exp-cards {
   width: 100%;
@@ -728,6 +728,9 @@ background-color: #00758f05;
 /* End Experience*/
 
 /************************** Start Contact **************************/
+.contact {
+  background: var(--bg-gradient);
+}
 .contact-shell {
   display: grid;
     grid-template-columns: minmax(0, 1.5fr) minmax(330px, 0.75fr);
